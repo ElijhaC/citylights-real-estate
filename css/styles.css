@@ -1,0 +1,99 @@
+/*colors
+#544013
+#d6ad60
+#fca311
+#a6a6a6
+#fefdef
+black
+*/
+
+body, html {
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-item {
+    font-size: 20px;
+    font-weight: bold;
+}
+#navbarSpace {
+    max-width: 400px;
+}
+
+.main {
+    background: url('img/background.png') no-repeat;
+    background-size: 100%;
+    width: 100% 100%;
+}
+
+.main h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+
+.card {
+    border: none;
+}
+
+.main select {
+    height: 40px;
+    width: 90%;
+    outline: none;
+    padding: 0 20px;
+}
+
+.main span {
+    color: gray;
+    font-weight: 600;
+}
+
+.main .btn1 {
+    background-color:#544013 ;
+    color: white;
+    border: none;
+    width: 90%;
+    height: 40px;
+    margin-top: 32px;
+}
+
+.btn1:hover {
+    background-color:#544030;
+    transition: 0.5s;
+}
+
+.rent {
+    background:#a6a6a6;
+}
+.btnc {
+    height: 45px;
+    width: 150px;
+    background-color: #544013;
+    color: white;
+    border: none;
+    margin-left: 16px;
+    font-weight: 500;
+
+}
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #d6ad60;
+    color: white;
+    text-align: center;
+}
+
+.fab {
+    font-size: 25px;
+    color: gray;
+}
+
+.fab:hover {
+    color: white;
+    transition: 0.5s;
+}
+
